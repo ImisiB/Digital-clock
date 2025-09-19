@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+.clock-body{
+  text-align: center;
+  display: grid;
+  place-content: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0);
+  /* background-color: red; */
+  height: 660px;
+}
+.clock{
+  font-family: "Orbitron", cursive;
+  color: white;
+  font-size: 40px;
+}
+.date{
+  font-family: cursive;
+  color: white;
+  font-size: 40px;
+}
