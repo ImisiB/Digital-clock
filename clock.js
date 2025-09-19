@@ -17,5 +17,5 @@ function date() {
   console.log(date)
   document.querySelector('.js-date').innerHTML = date;
 }
-time()
+date()
 setInterval(date, 1000);
